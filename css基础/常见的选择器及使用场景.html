@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常见的选择器及使用场景</title>
+</head>
+
+<body>
+    <h1>实验</h1>
+    <p class="first"><span>lorem</span>, ipsum dolor sit amet consectetur adipisicing elit. Totam ducimus expedita hic, dolores
+        maiores, voluptas
+        consequatur quas repudiandae, dolorem repellat quos similique odio veniam reiciendis eius eos neque error illum
+        natus libero eum commodi. Accusantium voluptatibus deserunt facere incidunt! Voluptatibus nisi nihil quisquam.
+        Vero at nemo atque deleniti, iusto rem totam ullam in quam fugit necessitatibus ipsa tempore magni libero
+        suscipit esse exercitationem cumque a quo explicabo quis maiores accusantium adipisci. Cumque illo odio aliquam
+        iure pariatur, exercitationem sint minima quibusdam dolor ipsa nostrum id veritatis sit magnam optio laudantium
+        repellendus molestias asperiores. Tenetur expedita ad earum quasi dolor voluptatibus?</p>
+    <p id="secend">Eveniet est, explicabo repudiandae fugit optio ducimus ratione? Voluptas perferendis doloremque
+        magnam eligendi
+        harum optio aut nesciunt rerum excepturi saepe, libero impedit laborum. Quaerat quia doloremque corrupti
+        blanditiis, unde harum provident cumque iste qui corporis illum eveniet ea. Nostrum veniam sunt doloremque id
+        delectus pariatur possimus, sed ex quas molestias eveniet ducimus nam tenetur soluta ipsum harum odit deserunt
+        et perferendis quis distinctio. Ducimus sed id natus modi praesentium incidunt repellendus consectetur quaerat
+        vel provident labore blanditiis magni iure molestiae non sequi, beatae reiciendis veniam iste fugit quidem
+        voluptates inventore tempore. Ratione quia ipsa animi tenetur autem, doloribus delectus natus?</p>
+    <p>Aspernatur repellendus commodi sapiente soluta vel illo, reiciendis quae voluptatibus ipsam similique id quia
+        velit ut at perferendis autem qui nobis alias excepturi ipsum asperiores magni doloremque et quo? Debitis
+        repellat fugiat ipsa delectus tenetur earum eum amet! Dicta, eius quidem, rerum velit atque reprehenderit amet
+        dolor sunt temporibus cumque aliquid perferendis omnis, suscipit in voluptate ducimus laborum aut cum natus
+        voluptatem! Soluta, aliquid aliquam deserunt nobis eaque molestiae debitis inventore praesentium mollitia
+        consectetur a harum sequi voluptates ipsum. Facere hic delectus sequi dolores id veritatis voluptate consequatur
+        totam officiis eos beatae rem maiores minus dignissimos esse, corporis excepturi minima!</p>
+</body>
+
+</html>
+<style>
+    /* 通配符选择器 */
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* 元素选择器 */
+    p {
+        padding: 20px;
+    }
+
+    /* 类选择器 */
+    .first {
+        border: 1px solid #ef1e06;
+    }
+
+    /* id选择器 */
+    #secend {
+        background-color: #ef1e06;
+    }
+
+    /* 后代选择器 */
+    p span {
+        color: red;
+    }
+
+    /* 相邻选择器 */
+    .first + p {
+        color: #ffffff;
+    }
+</style>
