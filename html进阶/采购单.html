@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格</title>
+    <style>
+        h1 {
+            text-align: center;
+            width: 600px;
+        }
+        .table {
+            width: 600px;
+            border-spacing: 0px;
+            border-right: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+        .table th {
+            background-color: #33aef0;
+            color: #fff;
+        }
+        .table th, .table td {
+            /* border: 1px solid #ccc; */
+            border-top: 1px solid #ccc;
+            border-left: 1px solid #ccc;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>采购单</h1>
+    <table class="table" border>
+        <thead>
+            <tr>
+                <th rowspan="2">产品</th>
+                <th rowspan="2">日期</th>
+                <th colspan="2">产品型号</th>
+                <th rowspan="2">来源</th>
+            </tr>
+            <tr>
+                <th>大 (件)</th>
+                <th>小 (件)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>矿泉水</td>
+                <td align="right">2月21</td>
+                <td align="right">4</td>
+                <td align="right">3</td>
+                <td>广东佛山</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>矿泉水</td>
+                <td align="right">2月21</td>
+                <td align="right">4</td>
+                <td align="right">2</td>
+                <td>广东佛山</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>矿泉水</td>
+                <td align="right">2月21</td>
+                <td align="right">4</td>
+                <td align="right">2</td>
+                <td>广东佛山</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>矿泉水</td>
+                <td align="right">2月21</td>
+                <td align="right">4</td>
+                <td align="right">2</td>
+                <td>广东佛山</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

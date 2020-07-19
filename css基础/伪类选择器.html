@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪类选择器</title>
+
+    <style>
+        /* 未选中 */
+        a:link {
+            color: violet;
+        }
+    </style>
+    <!--已选中-->
+    <style>
+        a:visited {
+            color: yellow;
+        }
+
+        /* 悬浮 */
+        a:hover {
+            color: green;
+        }
+
+        /* 点击瞬间 */
+        a:active {
+            color: red;
+        }
+        div p:first-child{
+            color: green;
+        }
+        /* nth-child() */
+        /* n是从0开始的 */
+        div p:nth-child(n+2) {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="https://xdclass.net/#index.html">小滴课堂</a>
+    <div>
+        <a href="https://www.baidu.com">百度</a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati dicta, unde sint, alias quam eligendi et
+            voluptatibus nisi rerum ullam maxime quidem hic voluptas assumenda amet culpa quod iusto error vero pariatur
+            tenetur deserunt beatae? Fugiat voluptatum ipsam hic eaque, sint sunt delectus error officiis illo ex
+            libero, reprehenderit quia sit tenetur consequuntur ut facere quae quisquam placeat molestias dolore et
+            animi minus. Minus quidem fuga vel porro earum eum deserunt commodi placeat tempore beatae, nisi animi
+            deleniti molestias ratione dolores esse sunt rem eveniet nesciunt nostrum adipisci voluptatum? Aut
+            voluptates at consequatur fuga voluptatibus quia dolores quidem, vel impedit.</p>
+        <p>Provident accusantium dolor tempora, eum obcaecati labore doloremque deserunt voluptates voluptatum officiis
+            minus perferendis eos! Esse blanditiis ratione officiis, eos expedita in suscipit inventore libero ipsam
+            praesentium placeat iste facilis distinctio, a labore, fuga quia deleniti architecto. Accusantium mollitia
+            odit ad eligendi? Quibusdam ab, consequuntur unde doloremque odit et odio ipsam eveniet temporibus placeat
+            tempore iusto minus suscipit est itaque. Beatae blanditiis laborum ab doloribus eius placeat consectetur
+            porro minus vero amet atque iure maxime nesciunt, ipsum nobis dignissimos tenetur. Culpa eos voluptas non,
+            exercitationem, unde impedit est maiores, aliquam error dicta quasi nulla ut blanditiis eum saepe eveniet.
+            Cupiditate.</p>
+        <p>Facere optio ab voluptate pariatur consequatur repudiandae atque tenetur amet ipsum mollitia, hic aspernatur
+            a nobis, voluptates praesentium labore accusamus incidunt, suscipit quos eveniet? Eius dicta vel perferendis
+            dolore hic temporibus veritatis velit facere doloremque ipsum laudantium, animi maiores inventore numquam
+            blanditiis. Voluptates doloremque ipsam, eveniet adipisci minima enim, aspernatur sunt molestias nihil
+            repudiandae nobis debitis dolores, explicabo sed! Cum eius optio sed illo nobis? Sunt id quis voluptate
+            architecto laborum recusandae, ut maiores quaerat corrupti similique cupiditate officiis error sequi quas.
+            Autem velit asperiores assumenda nihil voluptas voluptate eligendi libero esse vero possimus. Consequuntur
+            accusantium modi corrupti quaerat provident.</p>
+    </div>
+</body>
+
+</html>
